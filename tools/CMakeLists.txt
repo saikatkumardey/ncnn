@@ -1,9 +1,10 @@
 
-add_subdirectory(caffe)
-add_subdirectory(mxnet)
 add_subdirectory(onnx)
+# add_subdirectory(caffe)
+# add_subdirectory(mxnet)
 
-add_subdirectory(quantize)
+
+# add_subdirectory(quantize)
 
 add_executable(ncnn2mem ncnn2mem.cpp)
 
